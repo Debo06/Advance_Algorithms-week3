@@ -1,0 +1,3 @@
+Dataset: Breast Cancer Wisconsin (Diagnostic) — from scikit-learn datasets (load_breast_cancer)
+Original source: UCI Machine Learning Repository
+Notes: 569 samples, 30 numeric features, binary target (0=malignant, 1=benign).
