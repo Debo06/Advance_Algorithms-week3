@@ -1,27 +1,29 @@
 # Advance_Algorithms-week3
 Week 3 documents
 
+Raw Data
+
+1. breast_cancer_wisconsin_diagnostic.csv -- Source data / Raw Data
+2. DATA_SOURCE.txt -- Data Source
+
+Processed Data
+
+1. feature_importances.csv -- Feature importance
+2. test.csv -- test data for the script
+3. test_scored.csv -- Test scored Data
+4. train.csv -- Training data for the model
+5. metrics.json -- json file for the metrics
+
 Python Scripts:
 
-main.py -- Main file calling all the other programs
-data_gen.py -- Data Generation file
-eval.py -- Evaluating the data
-model.py -- Modeling the data
-preprocess.py -- Preprocess the data
-eda.py -- EDA file( Perform exploratory data analysis)
-utils.py -- Utility Data
+1. main.py -- Main file calling all the other programs
+2. preprocessing.py -- preprocessing file
+3. model_gbm.py -- Gbm model script
 
 Output Diagrams
 
-box_age.png
-box_credit_score.png
-box_debt_to_income.png
-box_existing_loans.png
-box_income.png
-class_balance.png
-corr_numeric.png
-hist_age.png
-hist_credit_score.png
-hist_debt_to_income.png
-hist_existing_loans.png
-hist_income.png
+1. confusion_matrix.png
+2. corr_heatmap.png
+3. feature_importance.png
+4. hist_radius_mean.png
+5. roc_curve.png
